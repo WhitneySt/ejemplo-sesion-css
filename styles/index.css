@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+
+/* Selector de tipo */
+p {
+  color: rgb(128, 128, 128);
+  font-size: 18px;
+}
+
+/* Selector de clase */
+.tarjeta {
+  background-color: rgba(225, 220, 220, 0.708);
+  width: 200px;
+  height: 350px;
+  padding: 8px;
+  margin: 10px;
+}
+
+/* Selector de ID */
+#popular {
+  background-color: rgb(238, 166, 31);
+}
+
+/* Selector de atributos */
+button[type="button"] {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: #f7ba8e94;
+  color: #ff8e3c;
+  font-weight: 800;
+  box-shadow: 6px 6px 12px #89868633;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: transparent;
+  border: 1px solid #ff8e3c;
+}
+
+/* Selector de decendencia */
+.tarjeta span {
+  font-size: 13px;
+  color: gray;
+}
+
+.tarjeta > p {
+  font-size: 14px;
+}
