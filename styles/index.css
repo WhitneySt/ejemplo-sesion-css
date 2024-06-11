@@ -7,7 +7,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-
 /* Selector de tipo */
 p {
   color: rgb(128, 128, 128);
@@ -53,4 +52,53 @@ button[type="button"]:hover {
 
 .tarjeta > p {
   font-size: 14px;
+}
+
+.container {
+  max-width: 1000px;
+  min-width: 200px;
+  /* height: 100%; */
+  background-color: aquamarine;
+  margin: 0 auto;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  width: 50%;
+  aspect-ratio: auto 3/4;
+  /* height: 300px; */
+}
+
+.card figure {
+  width: 100%;
+  height: 100%;
+}
+
+.card figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.card h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.322);
+  color: #fff;
+  padding: 5px 0;
 }
